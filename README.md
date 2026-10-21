@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/d9bdeed7-a3b9-4e37-8b22-497e0a732bbc
+
 # FlowCali
 
 **Form feedback for calisthenics from a single phone video.**
@@ -23,7 +27,7 @@ calibrated it on.
 
 The side-by-side pose comparison and the mobile walkthrough show **different source clips**.
 
-**▶ [Watch the app walkthrough](media/app-walkthrough.mp4)**: choosing a video
+**▶ [Watch the app walkthrough][(media/app-walkthrough.mp4)](https://github.com/user-attachments/assets/3af3ad48-7604-4c36-b1a4-6c6542a44bb2)**: choosing a video
 from the camera roll on an iPhone, confirming the analysis, and scrolling the
 generated report. The processing wait is sped up in the edit; the processing interval in this recording lasted roughly one minute on
 my local development backend. This was a single run, not a benchmark.
