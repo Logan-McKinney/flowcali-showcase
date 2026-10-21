@@ -21,10 +21,12 @@ calibrated it on.
   Full clips: <a href="media/pike-original.mp4">original</a> · <a href="media/pike-overlay.mp4">overlay</a></sub>
 </p>
 
+The side-by-side pose comparison and the mobile walkthrough show **different source clips**.
+
 **▶ [Watch the app walkthrough](media/app-walkthrough.mp4)**: choosing a video
 from the camera roll on an iPhone, confirming the analysis, and scrolling the
-generated report. The processing wait is sped up in the edit; the real analysis
-took about 45 seconds on my local development backend.
+generated report. The processing wait is sped up in the edit; the processing interval in this recording lasted roughly one minute on
+my local development backend. This was a single run, not a benchmark.
 
 > This repository is a portfolio showcase. The application source is private;
 > what's here is documentation, an [engineering write-up](docs/engineering.md),
@@ -188,8 +190,8 @@ them. The mobile app is type-checked; it has no automated UI tests.
 
 The labels are my own judgments, so the regression suite shows consistency,
 not accuracy. **No rep-count accuracy, precision, or scoring-accuracy figures
-have been measured**, and the 45-second analysis time is one observed run, not
-a benchmark.
+have been measured**, and the processing interval shown in the walkthrough is one observed run,
+not a benchmark.
 
 The [demo](demo/) has its own tests, which run against synthetic ground truth.
 
