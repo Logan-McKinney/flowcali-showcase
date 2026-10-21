@@ -1,7 +1,4 @@
 
-
-https://github.com/user-attachments/assets/d9bdeed7-a3b9-4e37-8b22-497e0a732bbc
-
 # FlowCali
 
 **Form feedback for calisthenics from a single phone video.**
@@ -25,12 +22,15 @@ calibrated it on.
   Full clips: <a href="media/pike-original.mp4">original</a> · <a href="media/pike-overlay.mp4">overlay</a></sub>
 </p>
 
-The side-by-side pose comparison and the mobile walkthrough show **different source clips**.
+The side-by-side pose comparison and mobile walkthrough feature different source clips.
 
-**▶ [Watch the app walkthrough][(media/app-walkthrough.mp4)](https://github.com/user-attachments/assets/3af3ad48-7604-4c36-b1a4-6c6542a44bb2)**: choosing a video
-from the camera roll on an iPhone, confirming the analysis, and scrolling the
-generated report. The processing wait is sped up in the edit; the processing interval in this recording lasted roughly one minute on
-my local development backend. This was a single run, not a benchmark.
+### App Walkthrough
+
+The recording demonstrates the FlowCali iPhone app selecting a video from the camera roll, submitting it for analysis, and displaying the generated form feedback report.
+
+https://github.com/user-attachments/assets/3af3ad48-7604-4c36-b1a4-6c6542a44bb2
+
+*The processing segment is shortened for the demo. The original analysis took approximately one minute using my local development backend.*
 
 > This repository is a portfolio showcase. The application source is private;
 > what's here is documentation, an [engineering write-up](docs/engineering.md),
