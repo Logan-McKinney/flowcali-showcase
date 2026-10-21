@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Outputs from running the demo with --out
+demo/*.png
+!demo/segmentation.png
+
+# Raw / unedited recordings: commit only the prepared files listed in media/README.md
+media/raw/
+*.mov
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
